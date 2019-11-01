@@ -2,7 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.ktm-solutions</groupId>
   <artifactId>automata</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>ktm-automata-kernel</module>
+  </modules>
   <name>${project.artifactId}</name>
   <description>My wonderfull scala app</description>
   <inceptionYear>2018</inceptionYear>
